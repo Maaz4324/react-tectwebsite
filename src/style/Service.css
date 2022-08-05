@@ -1,0 +1,33 @@
+.service-container{
+    width: 100%;
+    position: absolute;
+    /* height: 80vh; */
+    top: 100%;
+    background: orange;
+    color: black;
+}
+.service-card-container{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.service-head-container{
+    margin: 1em 0;
+}
+.card-container{
+    margin: 1em;
+}
+.btn-service-visit{
+    border: 2px solid white ;
+}
+.btn-service-visit:hover{
+    border: 2px solid white ;
+    background-color: white;
+    color: orange;  
+}
+
+@media (max-width:990px) {
+    .service-card-container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+.foot-container{
+    background-color: orange;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    top: 378%;
+}
+@media (max-width:990px) {
+    .foot-container{
+        top: 400%;
+    }
+}

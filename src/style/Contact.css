@@ -1,0 +1,24 @@
+.contact-container{
+    width: 100%;
+    /* height: 50vh; */
+    position: absolute;
+    top: 300%;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    color: #000;
+    font-weight: bold;
+}
+.contact-form-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.social-logo-container img{
+    width: 4%;
+    margin: 2em 1em;
+}
+
+@media (max-width:990px) {
+    .contact-container{
+        top: 400%;
+    }
+}
