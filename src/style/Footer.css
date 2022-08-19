@@ -1,12 +1,20 @@
-.foot-container{
-    background-color: orange;
-    height: 30vh;
-    width: 100%;
-    position: absolute;
-    top: 378%;
+.foot-container {
+  background-color: orange;
+  width: 100%;
 }
-@media (max-width:990px) {
-    .foot-container{
-        top: 400%;
-    }
+@media (max-width: 990px) {
+  .foot-container {
+    top: 400%;
+  }
+}
+@media (max-width: 597px) {
+  .col-md-6 h5 {
+    font-size: 16px;
+  }
+  .col-md-6 p {
+    font-size: 12px;
+  }
+  .footer-copyright {
+    font-size: 16px;
+  }
 }

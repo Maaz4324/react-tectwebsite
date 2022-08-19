@@ -1,34 +1,46 @@
-body{
-    font-family: 'Roboto Mono', monospace;
+body {
+  font-family: "Roboto Mono", monospace;
 }
-.home-txt-container{
-    position: relative;
-    top: 12%;
-    height: 30vh;
+.home-txt-container {
+  position: relative;
+  top: 12%;
+  height: 30vh;
 }
-.home-container{
+.home_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+    url("../images/bg.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .home-container{
     position: absolute;
     top: 35%;
     /* left: 30%;    */
-    width: 100%;
+/* width: 100%;
     margin: 0 auto;
     height: 50vh;
+}  */
+.home-txt-container h3 {
+  font-size: 1.4rem;
 }
-.home-txt-container h3{
-    font-size: 1.4rem;
+.home-txt-head h1 {
+  font-size: 6rem;
+  color: rgb(255, 255, 255);
 }
-.home-txt-head h1{
-    font-size: 6rem;
-    color: rgb(255, 255, 255);
+.btn-web {
+  padding: 1em;
+  border: 2px solid orange;
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
 }
-.btn-web{
-    padding: 1em;
-    border: 2px solid orange;
-    background-color: transparent;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-}
-.btn-web:hover{
-    transition: all ease-in 0.1s;
-    background-color: orange;
+.btn-web:hover {
+  transition: all ease-in 0.1s;
+  background-color: orange;
 }
